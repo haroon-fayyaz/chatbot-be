@@ -1,0 +1,22 @@
+{
+    "name": "chatbot-be",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start:dev": "nodemon app.js",
+      "start": "node app.js",
+      "zip": "zip -r chatbot-api.zip ."
+    },
+    "dependencies": {
+      "@fastify/aws-lambda": "3.0.0",
+      "dotenv": "^16.4.5",
+      "fastify": "^4.26.2",
+      "lodash": "^4.17.21",
+      "openai": "^4.39.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.0"
+    }
+  }
+  
